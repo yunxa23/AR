@@ -1,0 +1,16 @@
+<model-viewer src="ice cream.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.2532973754163196m 0.22720945758972663m 0.09939717723033298m" data-normal="-0.9297640653741708m -0.13874795174500645m 0.3410099538509983m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">甜筒</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.1912881366855877m 0.35913981057952693m 0.04061795088663183m" data-normal="0.32040930287601666m -0.519234084944166m -0.7922965629501996m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">冰淇淋</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
